@@ -1,7 +1,24 @@
 aid: mafengwo
-name: mafengwo
-description: mafengwo is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mafengwo.png
+name: Mafengwo
+description: Mafengwo (马蜂窝, "Honeycomb") is a Chinese travel social and user-generated-content
+  platform offering travel guides, destination reviews, trip notes (游记), community Q&A, and
+  online booking for flights, hotels, tours, and local activities. It was surfaced as a portfolio
+  company of Qiming Venture Partners and added to the API Evangelist network as a stub for
+  enrichment. No public developer or open-platform (开放平台) API surface was discoverable during
+  this enrichment pass; the site is protected by anti-bot measures and exposes no OpenAPI,
+  well-known discovery documents, or security.txt.
 url: https://raw.githubusercontent.com/api-evangelist/mafengwo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Tourism
+- China
+- Community
+- User-Generated Content
+- Reviews
+- Travel Guides
+- Booking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mafengwo.cn
+  url: https://www.mafengwo.cn
+- type: DomainSecurity
+  url: security/mafengwo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
